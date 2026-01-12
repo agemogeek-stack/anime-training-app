@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Anime Training App</title>
+
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#0000ff" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/main.jsx"></script>
-  </body>
+
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .app {
+      text-align: center;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      font-size: 16px;
+      background: #0000ff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <h1>🔥 Anime Training 🔥</h1>
+    <p>Desafio iniciado</p>
+    <button onclick="alert('Treino iniciado!')">Treinar</button>
+  </div>
+</body>
 </html>
